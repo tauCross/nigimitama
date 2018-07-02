@@ -8,11 +8,13 @@
 
 #import "NGAppLauncher.h"
 
+#import "NGMainViewController.h"
+
 
 
 @implementation NGAppLauncher
 
-+ (void)lauch
++ (void)launch
 {
     [NGAppLauncher standardLauncher];
 }
@@ -32,9 +34,23 @@
     self = [super init];
     if(self)
     {
-        
+        [self launch];
     }
     return self;
+}
+
+- (void)launch
+{
+    [self launchUI];
+}
+
+#pragma mark - Launch
+- (void)launchUI
+{
+    UIWindow *window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    window.rootViewController = [NGMainViewController standardController];
+    [[UIApplication sharedApplication] delegate].window = window;
+    [window makeKeyAndVisible];
 }
 
 @end

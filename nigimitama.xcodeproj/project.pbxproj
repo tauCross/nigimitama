@@ -8,6 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		53DBB84020EA097400FDB335 /* NGAppLauncher.m in Sources */ = {isa = PBXBuildFile; fileRef = 53DBB83F20EA097400FDB335 /* NGAppLauncher.m */; };
+		53DBB84C20EA2DFA00FDB335 /* NGMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53DBB84B20EA2DFA00FDB335 /* NGMainViewController.m */; };
+		53DBB85020EA31B600FDB335 /* NGViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53DBB84F20EA31B600FDB335 /* NGViewController.m */; };
+		53DBB85320EA334000FDB335 /* NGNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53DBB85220EA334000FDB335 /* NGNavigationController.m */; };
+		53DBB85520EA33B300FDB335 /* Public.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53DBB85420EA33B300FDB335 /* Public.xcassets */; };
+		53DBB85A20EA344300FDB335 /* NGHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53DBB85920EA344300FDB335 /* NGHomeViewController.m */; };
+		53DBB85D20EA345400FDB335 /* NGSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53DBB85C20EA345400FDB335 /* NGSettingViewController.m */; };
 		53EDCCE920E9F0990070D28F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53EDCCE820E9F0990070D28F /* Assets.xcassets */; };
 		53EDCCEF20E9F0990070D28F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 53EDCCEE20E9F0990070D28F /* main.m */; };
 		53EDCCFC20E9F48F0070D28F /* NGAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 53EDCCFB20E9F48F0070D28F /* NGAppDelegate.m */; };
@@ -20,6 +26,17 @@
 		53DBB84420EA185E00FDB335 /* nigimitama.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nigimitama.pch; sourceTree = "<group>"; };
 		53DBB84520EA190E00FDB335 /* department.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = department.h; sourceTree = "<group>"; };
 		53DBB84620EA191500FDB335 /* macro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = macro.h; sourceTree = "<group>"; };
+		53DBB84A20EA2DFA00FDB335 /* NGMainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NGMainViewController.h; sourceTree = "<group>"; };
+		53DBB84B20EA2DFA00FDB335 /* NGMainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NGMainViewController.m; sourceTree = "<group>"; };
+		53DBB84E20EA31B600FDB335 /* NGViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NGViewController.h; sourceTree = "<group>"; };
+		53DBB84F20EA31B600FDB335 /* NGViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NGViewController.m; sourceTree = "<group>"; };
+		53DBB85120EA334000FDB335 /* NGNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NGNavigationController.h; sourceTree = "<group>"; };
+		53DBB85220EA334000FDB335 /* NGNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NGNavigationController.m; sourceTree = "<group>"; };
+		53DBB85420EA33B300FDB335 /* Public.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Public.xcassets; sourceTree = "<group>"; };
+		53DBB85820EA344300FDB335 /* NGHomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NGHomeViewController.h; sourceTree = "<group>"; };
+		53DBB85920EA344300FDB335 /* NGHomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NGHomeViewController.m; sourceTree = "<group>"; };
+		53DBB85B20EA345400FDB335 /* NGSettingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NGSettingViewController.h; sourceTree = "<group>"; };
+		53DBB85C20EA345400FDB335 /* NGSettingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NGSettingViewController.m; sourceTree = "<group>"; };
 		53EDCCDC20E9F0980070D28F /* nigimitama.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = nigimitama.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		53EDCCE820E9F0990070D28F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		53EDCCED20E9F0990070D28F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -62,6 +79,56 @@
 			path = PCH;
 			sourceTree = "<group>";
 		};
+		53DBB84820EA2DC500FDB335 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				53DBB84D20EA31A900FDB335 /* Public */,
+				53DBB84920EA2DD400FDB335 /* Main */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		53DBB84920EA2DD400FDB335 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				53DBB84A20EA2DFA00FDB335 /* NGMainViewController.h */,
+				53DBB84B20EA2DFA00FDB335 /* NGMainViewController.m */,
+				53DBB85620EA342900FDB335 /* Home */,
+				53DBB85720EA343200FDB335 /* Setting */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		53DBB84D20EA31A900FDB335 /* Public */ = {
+			isa = PBXGroup;
+			children = (
+				53DBB84E20EA31B600FDB335 /* NGViewController.h */,
+				53DBB84F20EA31B600FDB335 /* NGViewController.m */,
+				53DBB85120EA334000FDB335 /* NGNavigationController.h */,
+				53DBB85220EA334000FDB335 /* NGNavigationController.m */,
+				53DBB85420EA33B300FDB335 /* Public.xcassets */,
+			);
+			path = Public;
+			sourceTree = "<group>";
+		};
+		53DBB85620EA342900FDB335 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				53DBB85820EA344300FDB335 /* NGHomeViewController.h */,
+				53DBB85920EA344300FDB335 /* NGHomeViewController.m */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		53DBB85720EA343200FDB335 /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+				53DBB85B20EA345400FDB335 /* NGSettingViewController.h */,
+				53DBB85C20EA345400FDB335 /* NGSettingViewController.m */,
+			);
+			path = Setting;
+			sourceTree = "<group>";
+		};
 		53EDCCD320E9F0980070D28F = {
 			isa = PBXGroup;
 			children = (
@@ -93,6 +160,7 @@
 			isa = PBXGroup;
 			children = (
 				53EDCCF920E9F46F0070D28F /* AppDelegate */,
+				53DBB84820EA2DC500FDB335 /* UI */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -195,6 +263,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				53DBB85520EA33B300FDB335 /* Public.xcassets in Resources */,
 				53EDCCE920E9F0990070D28F /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -245,8 +314,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				53DBB85320EA334000FDB335 /* NGNavigationController.m in Sources */,
+				53DBB85A20EA344300FDB335 /* NGHomeViewController.m in Sources */,
 				53DBB84020EA097400FDB335 /* NGAppLauncher.m in Sources */,
 				53EDCCEF20E9F0990070D28F /* main.m in Sources */,
+				53DBB84C20EA2DFA00FDB335 /* NGMainViewController.m in Sources */,
+				53DBB85020EA31B600FDB335 /* NGViewController.m in Sources */,
+				53DBB85D20EA345400FDB335 /* NGSettingViewController.m in Sources */,
 				53EDCCFC20E9F48F0070D28F /* NGAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

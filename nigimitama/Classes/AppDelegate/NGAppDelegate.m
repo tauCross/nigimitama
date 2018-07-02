@@ -8,12 +8,15 @@
 
 #import "NGAppDelegate.h"
 
+#import "NGAppLauncher.h"
+
 
 
 @implementation NGAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    [NGAppLauncher launch];
     return YES;
 }
 
