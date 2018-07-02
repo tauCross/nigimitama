@@ -1,0 +1,433 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		53DBB84020EA097400FDB335 /* NGAppLauncher.m in Sources */ = {isa = PBXBuildFile; fileRef = 53DBB83F20EA097400FDB335 /* NGAppLauncher.m */; };
+		53EDCCE920E9F0990070D28F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53EDCCE820E9F0990070D28F /* Assets.xcassets */; };
+		53EDCCEF20E9F0990070D28F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 53EDCCEE20E9F0990070D28F /* main.m */; };
+		53EDCCFC20E9F48F0070D28F /* NGAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 53EDCCFB20E9F48F0070D28F /* NGAppDelegate.m */; };
+		C148592B52E8E84A3D1E4BD0 /* libPods-the_nigimitama-nigimitama.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EAC8891F1BD08FE1364CC918 /* libPods-the_nigimitama-nigimitama.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		53DBB83E20EA097400FDB335 /* NGAppLauncher.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NGAppLauncher.h; sourceTree = "<group>"; };
+		53DBB83F20EA097400FDB335 /* NGAppLauncher.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NGAppLauncher.m; sourceTree = "<group>"; };
+		53DBB84420EA185E00FDB335 /* nigimitama.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nigimitama.pch; sourceTree = "<group>"; };
+		53DBB84520EA190E00FDB335 /* department.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = department.h; sourceTree = "<group>"; };
+		53DBB84620EA191500FDB335 /* macro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = macro.h; sourceTree = "<group>"; };
+		53EDCCDC20E9F0980070D28F /* nigimitama.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = nigimitama.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		53EDCCE820E9F0990070D28F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		53EDCCED20E9F0990070D28F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		53EDCCEE20E9F0990070D28F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		53EDCCFA20E9F48F0070D28F /* NGAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NGAppDelegate.h; sourceTree = "<group>"; };
+		53EDCCFB20E9F48F0070D28F /* NGAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NGAppDelegate.m; sourceTree = "<group>"; };
+		CBF35E98140BC14937969FA3 /* Pods-the_nigimitama-nigimitama.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-the_nigimitama-nigimitama.release.xcconfig"; path = "Pods/Target Support Files/Pods-the_nigimitama-nigimitama/Pods-the_nigimitama-nigimitama.release.xcconfig"; sourceTree = "<group>"; };
+		D6556BFCEA715298767FF00C /* Pods-the_nigimitama-nigimitama.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-the_nigimitama-nigimitama.debug.xcconfig"; path = "Pods/Target Support Files/Pods-the_nigimitama-nigimitama/Pods-the_nigimitama-nigimitama.debug.xcconfig"; sourceTree = "<group>"; };
+		EAC8891F1BD08FE1364CC918 /* libPods-the_nigimitama-nigimitama.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-the_nigimitama-nigimitama.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		53EDCCD920E9F0980070D28F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C148592B52E8E84A3D1E4BD0 /* libPods-the_nigimitama-nigimitama.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		53DBB83D20EA096200FDB335 /* Launcher */ = {
+			isa = PBXGroup;
+			children = (
+				53DBB83E20EA097400FDB335 /* NGAppLauncher.h */,
+				53DBB83F20EA097400FDB335 /* NGAppLauncher.m */,
+			);
+			path = Launcher;
+			sourceTree = "<group>";
+		};
+		53DBB84320EA185E00FDB335 /* PCH */ = {
+			isa = PBXGroup;
+			children = (
+				53DBB84420EA185E00FDB335 /* nigimitama.pch */,
+				53DBB84520EA190E00FDB335 /* department.h */,
+				53DBB84620EA191500FDB335 /* macro.h */,
+			);
+			path = PCH;
+			sourceTree = "<group>";
+		};
+		53EDCCD320E9F0980070D28F = {
+			isa = PBXGroup;
+			children = (
+				53EDCCDE20E9F0980070D28F /* nigimitama */,
+				53EDCCDD20E9F0980070D28F /* Products */,
+				8FF67769292599F6F0D90EA6 /* Pods */,
+				C7A29DA0DBA6D429B4F9DC28 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		53EDCCDD20E9F0980070D28F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				53EDCCDC20E9F0980070D28F /* nigimitama.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		53EDCCDE20E9F0980070D28F /* nigimitama */ = {
+			isa = PBXGroup;
+			children = (
+				53EDCCF520E9F4140070D28F /* Classes */,
+				53EDCCF620E9F4350070D28F /* SupportingFiles */,
+			);
+			path = nigimitama;
+			sourceTree = "<group>";
+		};
+		53EDCCF520E9F4140070D28F /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				53EDCCF920E9F46F0070D28F /* AppDelegate */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		53EDCCF620E9F4350070D28F /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				53EDCCE820E9F0990070D28F /* Assets.xcassets */,
+				53EDCCED20E9F0990070D28F /* Info.plist */,
+				53EDCCEE20E9F0990070D28F /* main.m */,
+				53DBB84320EA185E00FDB335 /* PCH */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		53EDCCF920E9F46F0070D28F /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				53EDCCFA20E9F48F0070D28F /* NGAppDelegate.h */,
+				53EDCCFB20E9F48F0070D28F /* NGAppDelegate.m */,
+				53DBB83D20EA096200FDB335 /* Launcher */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		8FF67769292599F6F0D90EA6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D6556BFCEA715298767FF00C /* Pods-the_nigimitama-nigimitama.debug.xcconfig */,
+				CBF35E98140BC14937969FA3 /* Pods-the_nigimitama-nigimitama.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C7A29DA0DBA6D429B4F9DC28 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EAC8891F1BD08FE1364CC918 /* libPods-the_nigimitama-nigimitama.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		53EDCCDB20E9F0980070D28F /* nigimitama */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53EDCCF220E9F0990070D28F /* Build configuration list for PBXNativeTarget "nigimitama" */;
+			buildPhases = (
+				5A6AF49CC3DA322C6F89BCD8 /* [CP] Check Pods Manifest.lock */,
+				53EDCCD820E9F0980070D28F /* Sources */,
+				53EDCCD920E9F0980070D28F /* Frameworks */,
+				53EDCCDA20E9F0980070D28F /* Resources */,
+				95015A852B6C9AFB5DCBACCE /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = nigimitama;
+			productName = nigimitama;
+			productReference = 53EDCCDC20E9F0980070D28F /* nigimitama.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		53EDCCD420E9F0980070D28F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = NG;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = tc;
+				TargetAttributes = {
+					53EDCCDB20E9F0980070D28F = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 53EDCCD720E9F0980070D28F /* Build configuration list for PBXProject "nigimitama" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 53EDCCD320E9F0980070D28F;
+			productRefGroup = 53EDCCDD20E9F0980070D28F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				53EDCCDB20E9F0980070D28F /* nigimitama */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		53EDCCDA20E9F0980070D28F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53EDCCE920E9F0990070D28F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5A6AF49CC3DA322C6F89BCD8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-the_nigimitama-nigimitama-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		95015A852B6C9AFB5DCBACCE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-the_nigimitama-nigimitama/Pods-the_nigimitama-nigimitama-resources.sh",
+				"${PODS_ROOT}/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SVProgressHUD.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-the_nigimitama-nigimitama/Pods-the_nigimitama-nigimitama-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		53EDCCD820E9F0980070D28F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53DBB84020EA097400FDB335 /* NGAppLauncher.m in Sources */,
+				53EDCCEF20E9F0990070D28F /* main.m in Sources */,
+				53EDCCFC20E9F48F0070D28F /* NGAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		53EDCCF020E9F0990070D28F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		53EDCCF120E9F0990070D28F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		53EDCCF320E9F0990070D28F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D6556BFCEA715298767FF00C /* Pods-the_nigimitama-nigimitama.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3293WRUKK7;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/nigimitama/SupportingFiles/PCH/nigimitama.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/nigimitama/SupportingFiles/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tc.nigimitama;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		53EDCCF420E9F0990070D28F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CBF35E98140BC14937969FA3 /* Pods-the_nigimitama-nigimitama.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3293WRUKK7;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/nigimitama/SupportingFiles/PCH/nigimitama.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/nigimitama/SupportingFiles/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tc.nigimitama;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		53EDCCD720E9F0980070D28F /* Build configuration list for PBXProject "nigimitama" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53EDCCF020E9F0990070D28F /* Debug */,
+				53EDCCF120E9F0990070D28F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		53EDCCF220E9F0990070D28F /* Build configuration list for PBXNativeTarget "nigimitama" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53EDCCF320E9F0990070D28F /* Debug */,
+				53EDCCF420E9F0990070D28F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 53EDCCD420E9F0980070D28F /* Project object */;
+}

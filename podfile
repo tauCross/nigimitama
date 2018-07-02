@@ -1,0 +1,21 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+platform :ios, '11.0'
+inhibit_all_warnings!
+
+abstract_target 'the_nigimitama' do
+
+pod 'TCNimbusTableView'
+pod 'AFNetworking'
+pod 'TCCocoaExpand'
+pod 'TCNoActionControl'
+pod 'TCJSONKit'
+pod 'TCRefresh'
+pod 'SVProgressHUD'
+pod 'ReactiveCocoa'
+pod 'SDWebImage'
+
+target 'nigimitama' do
+end
+
+end

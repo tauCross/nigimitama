@@ -1,0 +1,15 @@
+//
+//  nigimitama.pch
+//  nigimitama
+//
+//  Created by tauCross on 2018/7/2.
+//  Copyright © 2018年 tc. All rights reserved.
+//
+
+#ifndef nigimitama_pch
+#define nigimitama_pch
+
+#import "department.h"
+#import "macro.h"
+
+#endif

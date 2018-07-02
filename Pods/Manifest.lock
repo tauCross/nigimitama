@@ -1,0 +1,72 @@
+PODS:
+  - AFNetworking (3.2.0):
+    - AFNetworking/NSURLSession (= 3.2.0)
+    - AFNetworking/Reachability (= 3.2.0)
+    - AFNetworking/Security (= 3.2.0)
+    - AFNetworking/Serialization (= 3.2.0)
+    - AFNetworking/UIKit (= 3.2.0)
+  - AFNetworking/NSURLSession (3.2.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.2.0)
+  - AFNetworking/Security (3.2.0)
+  - AFNetworking/Serialization (3.2.0)
+  - AFNetworking/UIKit (3.2.0):
+    - AFNetworking/NSURLSession
+  - ReactiveCocoa (2.5):
+    - ReactiveCocoa/UI (= 2.5)
+  - ReactiveCocoa/Core (2.5):
+    - ReactiveCocoa/no-arc
+  - ReactiveCocoa/no-arc (2.5)
+  - ReactiveCocoa/UI (2.5):
+    - ReactiveCocoa/Core
+  - SDWebImage (4.3.3):
+    - SDWebImage/Core (= 4.3.3)
+  - SDWebImage/Core (4.3.3)
+  - SVProgressHUD (2.2.5)
+  - TCCocoaExpand (0.0.9)
+  - TCJSONKit (0.0.3)
+  - TCNimbusTableView (0.0.2)
+  - TCNoActionControl (0.0.1)
+  - TCRefresh (0.0.7):
+    - ReactiveCocoa (= 2.5)
+    - TCCocoaExpand
+
+DEPENDENCIES:
+  - AFNetworking
+  - ReactiveCocoa
+  - SDWebImage
+  - SVProgressHUD
+  - TCCocoaExpand
+  - TCJSONKit
+  - TCNimbusTableView
+  - TCNoActionControl
+  - TCRefresh
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AFNetworking
+    - ReactiveCocoa
+    - SDWebImage
+    - SVProgressHUD
+    - TCCocoaExpand
+    - TCJSONKit
+    - TCNimbusTableView
+    - TCNoActionControl
+    - TCRefresh
+
+SPEC CHECKSUMS:
+  AFNetworking: 8ac6017b94ea105479f7776e5288e48ae9c59bb4
+  ReactiveCocoa: e2db045570aa97c695e7aa97c2bcab222ae51f4a
+  SDWebImage: de4d90b5bff3571eae7bd16202b1f43135409fa5
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+  TCCocoaExpand: 7872b063f2bf5dc6f73161d3070da980e2d59418
+  TCJSONKit: bdf9bf6efda5a196431902de332ea9d89884a175
+  TCNimbusTableView: 32addd62754193703894a1e0b8bd7c9c8fd1622a
+  TCNoActionControl: 689139ed98f77dcc4e0af664dc53a2b46ad0596c
+  TCRefresh: 4635f98b0a1818c103ead92a46e935e39bf1e17d
+
+PODFILE CHECKSUM: 2467f321f68aac9ab96a7631556606279ec78de7
+
+COCOAPODS: 1.5.3

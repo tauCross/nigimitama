@@ -1,0 +1,1 @@
+../../../TCNimbusTableView/TCNimbusTableView/src/core/NISDKAvailability.h
